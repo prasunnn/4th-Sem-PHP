@@ -15,7 +15,6 @@
     </form>
     
 <?php
-define("PI","3.14");
 if ($_SERVER["REQUEST_METHOD"] == "POST") { 
     $wins = $_REQUEST['wins'];
     $loss = $_REQUEST['loss'];

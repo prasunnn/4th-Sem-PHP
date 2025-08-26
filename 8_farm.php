@@ -15,7 +15,6 @@
     </form>
     
 <?php
-define("PI","3.14");
 if ($_SERVER["REQUEST_METHOD"] == "POST") { 
     $chicken = $_REQUEST['chicken'];
     $cow = $_REQUEST['cow'];

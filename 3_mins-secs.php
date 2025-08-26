@@ -13,8 +13,7 @@
             'seconds' => $seconds,
         ];
     }
-    ?>
-    <?php
+
     $minutes = 45;
     $result = minutes_to_seconds($minutes);
     echo ("$minutes minutes equal to {$result['seconds']} seconds");

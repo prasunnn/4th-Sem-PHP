@@ -11,9 +11,7 @@
     function line_break(){
         echo("<br>");
     }
-    ?>
-
-    <?php
+    
     //String
     $x = "Hello World";
     echo($x);

@@ -13,8 +13,7 @@
             'power'=> $power,
         ];
     }
-    ?>
-    <?php
+
     $voltage = 5;
     $current = 6;
     $result = power($voltage,$current);

@@ -15,8 +15,7 @@
             'days'=> $total_days,
         ];
     }
-    ?>
-    <?php
+
     $age = 21;
     $result = years_to_days($age);
     echo ("$age years equals to {$result['days']} days");

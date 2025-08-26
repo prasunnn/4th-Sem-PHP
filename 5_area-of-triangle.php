@@ -13,8 +13,7 @@
             'area'=> $area,
         ];
     }
-    ?>
-    <?php
+
     $base = 3;
     $height = 4;
     $result = area_of_triangle($base,$height);
