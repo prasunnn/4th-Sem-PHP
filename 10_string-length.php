@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
     <?php
     function string_length($string1, $string2){
         if(strlen($string1)==strlen($string2))
@@ -23,5 +15,3 @@
     else
         echo("They don't have same length");
     ?>
-</body>
-</html>
