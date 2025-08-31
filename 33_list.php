@@ -7,7 +7,7 @@ $result = $conn->query("SELECT * FROM courses ORDER BY id DESC");
 <head><title>Course List</title></head>
 <body>
     <h2>Course List</h2>
-    <a href="question33create.php">+ Add Course</a> | <a href="33_student-list.php">View Students</a>
+    <a href="33_create.php">+ Add Course</a> | <a href="33_student-list.php">View Students</a>
     <table border="1" cellpadding="8">
         <tr>
             <th>ID</th><th>Title</th><th>Duration</th><th>Status</th>
