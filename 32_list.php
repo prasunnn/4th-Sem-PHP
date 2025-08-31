@@ -21,7 +21,7 @@ $result = $conn->query("SELECT * FROM employees ORDER BY id DESC");
             <th>Image</th><th>Created By</th><th>Updated By</th>
             <th>Created At</th><th>Updated At</th><th>Action</th>
         </tr>
-        <?php while($row = $result->fetch_assoc()) { ?>
+        <?php foreach ( $result as $row ) { ?>
         <tr>
             <td><?= $row['id'] ?></td>
             <td><?= $row['name'] ?></td>

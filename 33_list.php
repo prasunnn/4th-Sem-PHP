@@ -13,7 +13,7 @@ $result = $conn->query("SELECT * FROM courses ORDER BY id DESC");
             <th>ID</th><th>Title</th><th>Duration</th><th>Status</th>
             <th>Created</th><th>Updated</th><th>Action</th>
         </tr>
-        <?php while($row=$result->fetch_assoc()){ ?>
+        <?php foreach ( $result as $row ){ ?>
         <tr>
             <td><?= $row['id']?></td>
             <td><?= $row['title']?></td>

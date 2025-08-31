@@ -16,7 +16,7 @@ $result = $conn->query($sql);
             <th>Roll No</th><th>Phone</th><th>Address</th><th>DOB</th>
             <th>Status</th><th>Created</th><th>Updated</th><th>Action</th>
         </tr>
-        <?php while($row=$result->fetch_assoc()){ ?>
+        <?php foreach ( $result as $row ){ ?>
         <tr>
             <td><?= $row['id']?></td>
             <td><?= $row['name']?></td>
